@@ -1,0 +1,1815 @@
+{
+  "nations": [
+    {
+      "id": 1,
+      "name": "China",
+      "color": "#b5524a"
+    },
+    {
+      "id": 2,
+      "name": "Pekín",
+      "color": "#c47c3a"
+    },
+    {
+      "id": 3,
+      "name": "Cantón",
+      "color": "#5b7fa6"
+    },
+    {
+      "id": 4,
+      "name": "Guangzhou",
+      "color": "#dab6a5"
+    },
+    {
+      "id": 5,
+      "name": "República Democrática del Congo",
+      "color": "#cc3b52"
+    },
+    {
+      "id": 6,
+      "name": "Turquía",
+      "color": "#b5524a"
+    },
+    {
+      "id": 7,
+      "name": "Nigeria",
+      "color": "#5a9e6f"
+    },
+    {
+      "id": 8,
+      "name": "Vietnam",
+      "color": "#a119c0"
+    },
+    {
+      "id": 9,
+      "name": "Sichuan",
+      "color": "#5b7fa6"
+    },
+    {
+      "id": 10,
+      "name": "Pakistán",
+      "color": "#5a9e6f"
+    },
+    {
+      "id": 11,
+      "name": "India",
+      "color": "#c47c3a"
+    },
+    {
+      "id": 12,
+      "name": "Brasil",
+      "color": "#c9a24c"
+    },
+    {
+      "id": 13,
+      "name": "México",
+      "color": "#452895"
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "name": "Shanghái",
+      "nationId": 2,
+      "latitude": 31.22222,
+      "longitude": 121.45806,
+      "infrastructureLevel": 2,
+      "developmentPoints": 1,
+      "militaryPower": 0
+    },
+    {
+      "id": 2,
+      "name": "Pekín",
+      "nationId": 2,
+      "latitude": 39.9075,
+      "longitude": 116.39723,
+      "infrastructureLevel": 5,
+      "developmentPoints": 0,
+      "militaryPower": 10
+    },
+    {
+      "id": 3,
+      "name": "Shenzhen",
+      "nationId": 3,
+      "latitude": 22.54554,
+      "longitude": 114.0683,
+      "infrastructureLevel": 3,
+      "developmentPoints": 2,
+      "militaryPower": 3
+    },
+    {
+      "id": 4,
+      "name": "Cantón",
+      "nationId": 4,
+      "latitude": 23.11667,
+      "longitude": 113.25,
+      "infrastructureLevel": 2,
+      "developmentPoints": 0,
+      "militaryPower": 8
+    },
+    {
+      "id": 5,
+      "name": "Kinsasa",
+      "nationId": 5,
+      "latitude": -4.32758,
+      "longitude": 15.31357,
+      "infrastructureLevel": 3,
+      "developmentPoints": 0,
+      "militaryPower": 6
+    },
+    {
+      "id": 6,
+      "name": "Estambul",
+      "nationId": 6,
+      "latitude": 41.01384,
+      "longitude": 28.94966,
+      "infrastructureLevel": 3,
+      "developmentPoints": 2,
+      "militaryPower": 4
+    },
+    {
+      "id": 7,
+      "name": "Lagos",
+      "nationId": 7,
+      "latitude": 6.45407,
+      "longitude": 3.39467,
+      "infrastructureLevel": 1,
+      "developmentPoints": 0,
+      "militaryPower": 3
+    },
+    {
+      "id": 8,
+      "name": "Ciudad Ho Chi Minh (Saigón)",
+      "nationId": 8,
+      "latitude": 10.82302,
+      "longitude": 106.62965,
+      "infrastructureLevel": 2,
+      "developmentPoints": 0,
+      "militaryPower": 5
+    },
+    {
+      "id": 9,
+      "name": "Chengdú",
+      "nationId": 9,
+      "latitude": 30.66667,
+      "longitude": 104.06667,
+      "infrastructureLevel": 1,
+      "developmentPoints": 0,
+      "militaryPower": 3
+    },
+    {
+      "id": 10,
+      "name": "Lahore",
+      "nationId": 6,
+      "latitude": 31.558,
+      "longitude": 74.35071,
+      "infrastructureLevel": 2,
+      "developmentPoints": 0,
+      "militaryPower": 0
+    },
+    {
+      "id": 11,
+      "name": "Mumbai",
+      "nationId": 6,
+      "latitude": 19.07283,
+      "longitude": 72.88261,
+      "infrastructureLevel": 1,
+      "developmentPoints": 0,
+      "militaryPower": 0
+    },
+    {
+      "id": 12,
+      "name": "São Paulo",
+      "nationId": 12,
+      "latitude": -23.5475,
+      "longitude": -46.6361,
+      "infrastructureLevel": 2,
+      "developmentPoints": 1,
+      "militaryPower": 0
+    },
+    {
+      "id": 13,
+      "name": "Ciudad de México",
+      "nationId": 13,
+      "latitude": 19.42847,
+      "longitude": -99.12766,
+      "infrastructureLevel": 1,
+      "developmentPoints": 0,
+      "militaryPower": 2
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "nationFounded",
+      "date": "2026-01-01",
+      "nation": 1,
+      "city": {
+        "id": 1,
+        "name": "Shanghái",
+        "nationId": 1,
+        "latitude": 31.22222,
+        "longitude": 121.45806,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 2,
+      "type": "nationFounded",
+      "date": "2026-01-01",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 3,
+      "type": "developInfrastructure",
+      "date": "2026-01-02",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 4,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-03",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 5,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-03",
+      "nation": 1,
+      "city": {
+        "id": 1,
+        "name": "Shanghái",
+        "nationId": 1,
+        "latitude": 31.22222,
+        "longitude": 121.45806,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 1
+      }
+    },
+    {
+      "id": 6,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-04",
+      "nation": 1,
+      "city": {
+        "id": 1,
+        "name": "Shanghái",
+        "nationId": 1,
+        "latitude": 31.22222,
+        "longitude": 121.45806,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 7,
+      "type": "developInfrastructure",
+      "date": "2026-01-04",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 2,
+        "developmentPoints": 1,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 8,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-05",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 2,
+        "developmentPoints": 1,
+        "militaryPower": 4
+      }
+    },
+    {
+      "id": 9,
+      "type": "developInfrastructure",
+      "date": "2026-01-06",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 3,
+        "developmentPoints": 0,
+        "militaryPower": 4
+      }
+    },
+    {
+      "id": 10,
+      "type": "nationFounded",
+      "date": "2026-01-06",
+      "nation": 3,
+      "city": {
+        "id": 3,
+        "name": "Shenzhen",
+        "nationId": 3,
+        "latitude": 22.54554,
+        "longitude": 114.0683,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 11,
+      "type": "nationFounded",
+      "date": "2026-01-06",
+      "nation": 4,
+      "city": {
+        "id": 4,
+        "name": "Cantón",
+        "nationId": 4,
+        "latitude": 23.11667,
+        "longitude": 113.25,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 12,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-07",
+      "nation": 4,
+      "city": {
+        "id": 4,
+        "name": "Cantón",
+        "nationId": 4,
+        "latitude": 23.11667,
+        "longitude": 113.25,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 1
+      }
+    },
+    {
+      "id": 13,
+      "type": "developInfrastructure",
+      "date": "2026-01-07",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 3,
+        "developmentPoints": 1,
+        "militaryPower": 4
+      }
+    },
+    {
+      "id": 14,
+      "type": "developInfrastructure",
+      "date": "2026-01-08",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 3,
+        "developmentPoints": 2,
+        "militaryPower": 4
+      }
+    },
+    {
+      "id": 15,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-08",
+      "nation": 3,
+      "city": {
+        "id": 3,
+        "name": "Shenzhen",
+        "nationId": 3,
+        "latitude": 22.54554,
+        "longitude": 114.0683,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 1
+      }
+    },
+    {
+      "id": 16,
+      "type": "developInfrastructure",
+      "date": "2026-01-08",
+      "nation": 4,
+      "city": {
+        "id": 4,
+        "name": "Cantón",
+        "nationId": 4,
+        "latitude": 23.11667,
+        "longitude": 113.25,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 1
+      }
+    },
+    {
+      "id": 17,
+      "type": "attack",
+      "date": "2026-01-09",
+      "nation": 4,
+      "city": {
+        "id": 4,
+        "name": "Cantón",
+        "nationId": 4,
+        "latitude": 23.11667,
+        "longitude": 113.25,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      },
+      "targetNation": 2,
+      "targetCity": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 3,
+        "developmentPoints": 2,
+        "militaryPower": 3
+      },
+      "attackerInitialPM": 1,
+      "defenderInitialPM": 4
+    },
+    {
+      "id": 18,
+      "type": "nationFounded",
+      "date": "2026-01-09",
+      "nation": 5,
+      "city": {
+        "id": 5,
+        "name": "Kinsasa",
+        "nationId": 5,
+        "latitude": -4.32758,
+        "longitude": 15.31357,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 19,
+      "type": "nationFounded",
+      "date": "2026-01-09",
+      "nation": 6,
+      "city": {
+        "id": 6,
+        "name": "Estambul",
+        "nationId": 6,
+        "latitude": 41.01384,
+        "longitude": 28.94966,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 20,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-09",
+      "nation": 3,
+      "city": {
+        "id": 3,
+        "name": "Shenzhen",
+        "nationId": 3,
+        "latitude": 22.54554,
+        "longitude": 114.0683,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 21,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-10",
+      "nation": 6,
+      "city": {
+        "id": 6,
+        "name": "Estambul",
+        "nationId": 6,
+        "latitude": 41.01384,
+        "longitude": 28.94966,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 1
+      }
+    },
+    {
+      "id": 22,
+      "type": "developInfrastructure",
+      "date": "2026-01-10",
+      "nation": 1,
+      "city": {
+        "id": 1,
+        "name": "Shanghái",
+        "nationId": 1,
+        "latitude": 31.22222,
+        "longitude": 121.45806,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 23,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-10",
+      "nation": 4,
+      "city": {
+        "id": 4,
+        "name": "Cantón",
+        "nationId": 4,
+        "latitude": 23.11667,
+        "longitude": 113.25,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 24,
+      "type": "nationFounded",
+      "date": "2026-01-10",
+      "nation": 7,
+      "city": {
+        "id": 7,
+        "name": "Lagos",
+        "nationId": 7,
+        "latitude": 6.45407,
+        "longitude": 3.39467,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 25,
+      "type": "developInfrastructure",
+      "date": "2026-01-10",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 4,
+        "developmentPoints": 0,
+        "militaryPower": 3
+      }
+    },
+    {
+      "id": 26,
+      "type": "developInfrastructure",
+      "date": "2026-01-11",
+      "nation": 6,
+      "city": {
+        "id": 6,
+        "name": "Estambul",
+        "nationId": 6,
+        "latitude": 41.01384,
+        "longitude": 28.94966,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 1
+      }
+    },
+    {
+      "id": 27,
+      "type": "nationFounded",
+      "date": "2026-01-11",
+      "nation": 8,
+      "city": {
+        "id": 8,
+        "name": "Ciudad Ho Chi Minh (Saigón)",
+        "nationId": 8,
+        "latitude": 10.82302,
+        "longitude": 106.62965,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 28,
+      "type": "developInfrastructure",
+      "date": "2026-01-12",
+      "nation": 6,
+      "city": {
+        "id": 6,
+        "name": "Estambul",
+        "nationId": 6,
+        "latitude": 41.01384,
+        "longitude": 28.94966,
+        "infrastructureLevel": 2,
+        "developmentPoints": 1,
+        "militaryPower": 1
+      }
+    },
+    {
+      "id": 29,
+      "type": "attack",
+      "date": "2026-01-13",
+      "nation": 6,
+      "city": {
+        "id": 6,
+        "name": "Estambul",
+        "nationId": 6,
+        "latitude": 41.01384,
+        "longitude": 28.94966,
+        "infrastructureLevel": 2,
+        "developmentPoints": 1,
+        "militaryPower": 0
+      },
+      "targetNation": 2,
+      "targetCity": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 4,
+        "developmentPoints": 0,
+        "militaryPower": 2
+      },
+      "attackerInitialPM": 1,
+      "defenderInitialPM": 3
+    },
+    {
+      "id": 30,
+      "type": "developInfrastructure",
+      "date": "2026-01-14",
+      "nation": 6,
+      "city": {
+        "id": 6,
+        "name": "Estambul",
+        "nationId": 6,
+        "latitude": 41.01384,
+        "longitude": 28.94966,
+        "infrastructureLevel": 3,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 31,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-14",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 4,
+        "developmentPoints": 0,
+        "militaryPower": 6
+      }
+    },
+    {
+      "id": 32,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-15",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 4,
+        "developmentPoints": 0,
+        "militaryPower": 10
+      }
+    },
+    {
+      "id": 33,
+      "type": "developInfrastructure",
+      "date": "2026-01-15",
+      "nation": 3,
+      "city": {
+        "id": 3,
+        "name": "Shenzhen",
+        "nationId": 3,
+        "latitude": 22.54554,
+        "longitude": 114.0683,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 34,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-16",
+      "nation": 3,
+      "city": {
+        "id": 3,
+        "name": "Shenzhen",
+        "nationId": 3,
+        "latitude": 22.54554,
+        "longitude": 114.0683,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 4
+      }
+    },
+    {
+      "id": 35,
+      "type": "developInfrastructure",
+      "date": "2026-01-17",
+      "nation": 3,
+      "city": {
+        "id": 3,
+        "name": "Shenzhen",
+        "nationId": 3,
+        "latitude": 22.54554,
+        "longitude": 114.0683,
+        "infrastructureLevel": 2,
+        "developmentPoints": 1,
+        "militaryPower": 4
+      }
+    },
+    {
+      "id": 36,
+      "type": "nationFounded",
+      "date": "2026-01-17",
+      "nation": 9,
+      "city": {
+        "id": 9,
+        "name": "Chengdú",
+        "nationId": 9,
+        "latitude": 30.66667,
+        "longitude": 104.06667,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 37,
+      "type": "nationFounded",
+      "date": "2026-01-17",
+      "nation": 10,
+      "city": {
+        "id": 10,
+        "name": "Lahore",
+        "nationId": 10,
+        "latitude": 31.558,
+        "longitude": 74.35071,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 38,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-18",
+      "nation": 9,
+      "city": {
+        "id": 9,
+        "name": "Chengdú",
+        "nationId": 9,
+        "latitude": 30.66667,
+        "longitude": 104.06667,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 1
+      }
+    },
+    {
+      "id": 39,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-18",
+      "nation": 7,
+      "city": {
+        "id": 7,
+        "name": "Lagos",
+        "nationId": 7,
+        "latitude": 6.45407,
+        "longitude": 3.39467,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 1
+      }
+    },
+    {
+      "id": 40,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-18",
+      "nation": 1,
+      "city": {
+        "id": 1,
+        "name": "Shanghái",
+        "nationId": 1,
+        "latitude": 31.22222,
+        "longitude": 121.45806,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 4
+      }
+    },
+    {
+      "id": 41,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-19",
+      "nation": 9,
+      "city": {
+        "id": 9,
+        "name": "Chengdú",
+        "nationId": 9,
+        "latitude": 30.66667,
+        "longitude": 104.06667,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 42,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-19",
+      "nation": 4,
+      "city": {
+        "id": 4,
+        "name": "Cantón",
+        "nationId": 4,
+        "latitude": 23.11667,
+        "longitude": 113.25,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 4
+      }
+    },
+    {
+      "id": 43,
+      "type": "nationFounded",
+      "date": "2026-01-19",
+      "nation": 11,
+      "city": {
+        "id": 11,
+        "name": "Mumbai",
+        "nationId": 11,
+        "latitude": 19.07283,
+        "longitude": 72.88261,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 44,
+      "type": "developInfrastructure",
+      "date": "2026-01-19",
+      "nation": 6,
+      "city": {
+        "id": 6,
+        "name": "Estambul",
+        "nationId": 6,
+        "latitude": 41.01384,
+        "longitude": 28.94966,
+        "infrastructureLevel": 3,
+        "developmentPoints": 1,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 45,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-19",
+      "nation": 8,
+      "city": {
+        "id": 8,
+        "name": "Ciudad Ho Chi Minh (Saigón)",
+        "nationId": 8,
+        "latitude": 10.82302,
+        "longitude": 106.62965,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 1
+      }
+    },
+    {
+      "id": 46,
+      "type": "attack",
+      "date": "2026-01-19",
+      "nation": 1,
+      "city": {
+        "id": 1,
+        "name": "Shanghái",
+        "nationId": 1,
+        "latitude": 31.22222,
+        "longitude": 121.45806,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      },
+      "targetNation": 2,
+      "targetCity": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 4,
+        "developmentPoints": 0,
+        "militaryPower": 6
+      },
+      "attackerInitialPM": 4,
+      "defenderInitialPM": 10
+    },
+    {
+      "id": 47,
+      "type": "developInfrastructure",
+      "date": "2026-01-20",
+      "nation": 11,
+      "city": {
+        "id": 11,
+        "name": "Mumbai",
+        "nationId": 11,
+        "latitude": 19.07283,
+        "longitude": 72.88261,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 48,
+      "type": "developInfrastructure",
+      "date": "2026-01-20",
+      "nation": 6,
+      "city": {
+        "id": 6,
+        "name": "Estambul",
+        "nationId": 6,
+        "latitude": 41.01384,
+        "longitude": 28.94966,
+        "infrastructureLevel": 3,
+        "developmentPoints": 2,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 49,
+      "type": "developInfrastructure",
+      "date": "2026-01-20",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 4,
+        "developmentPoints": 1,
+        "militaryPower": 6
+      }
+    },
+    {
+      "id": 50,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-21",
+      "nation": 6,
+      "city": {
+        "id": 6,
+        "name": "Estambul",
+        "nationId": 6,
+        "latitude": 41.01384,
+        "longitude": 28.94966,
+        "infrastructureLevel": 3,
+        "developmentPoints": 2,
+        "militaryPower": 3
+      }
+    },
+    {
+      "id": 51,
+      "type": "developInfrastructure",
+      "date": "2026-01-21",
+      "nation": 3,
+      "city": {
+        "id": 3,
+        "name": "Shenzhen",
+        "nationId": 3,
+        "latitude": 22.54554,
+        "longitude": 114.0683,
+        "infrastructureLevel": 3,
+        "developmentPoints": 0,
+        "militaryPower": 4
+      }
+    },
+    {
+      "id": 52,
+      "type": "developInfrastructure",
+      "date": "2026-01-22",
+      "nation": 3,
+      "city": {
+        "id": 3,
+        "name": "Shenzhen",
+        "nationId": 3,
+        "latitude": 22.54554,
+        "longitude": 114.0683,
+        "infrastructureLevel": 3,
+        "developmentPoints": 1,
+        "militaryPower": 4
+      }
+    },
+    {
+      "id": 53,
+      "type": "attack",
+      "date": "2026-01-22",
+      "nation": 4,
+      "city": {
+        "id": 4,
+        "name": "Cantón",
+        "nationId": 4,
+        "latitude": 23.11667,
+        "longitude": 113.25,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      },
+      "targetNation": 3,
+      "targetCity": {
+        "id": 3,
+        "name": "Shenzhen",
+        "nationId": 3,
+        "latitude": 22.54554,
+        "longitude": 114.0683,
+        "infrastructureLevel": 3,
+        "developmentPoints": 1,
+        "militaryPower": 0
+      },
+      "attackerInitialPM": 4,
+      "defenderInitialPM": 4
+    },
+    {
+      "id": 54,
+      "type": "developInfrastructure",
+      "date": "2026-01-22",
+      "nation": 11,
+      "city": {
+        "id": 11,
+        "name": "Mumbai",
+        "nationId": 11,
+        "latitude": 19.07283,
+        "longitude": 72.88261,
+        "infrastructureLevel": 2,
+        "developmentPoints": 1,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 55,
+      "type": "developInfrastructure",
+      "date": "2026-01-22",
+      "nation": 1,
+      "city": {
+        "id": 1,
+        "name": "Shanghái",
+        "nationId": 1,
+        "latitude": 31.22222,
+        "longitude": 121.45806,
+        "infrastructureLevel": 2,
+        "developmentPoints": 1,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 56,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-23",
+      "nation": 4,
+      "city": {
+        "id": 4,
+        "name": "Cantón",
+        "nationId": 4,
+        "latitude": 23.11667,
+        "longitude": 113.25,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 57,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-23",
+      "nation": 10,
+      "city": {
+        "id": 10,
+        "name": "Lahore",
+        "nationId": 10,
+        "latitude": 31.558,
+        "longitude": 74.35071,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 1
+      }
+    },
+    {
+      "id": 58,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-23",
+      "nation": 5,
+      "city": {
+        "id": 5,
+        "name": "Kinsasa",
+        "nationId": 5,
+        "latitude": -4.32758,
+        "longitude": 15.31357,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 1
+      }
+    },
+    {
+      "id": 59,
+      "type": "developInfrastructure",
+      "date": "2026-01-24",
+      "nation": 5,
+      "city": {
+        "id": 5,
+        "name": "Kinsasa",
+        "nationId": 5,
+        "latitude": -4.32758,
+        "longitude": 15.31357,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 1
+      }
+    },
+    {
+      "id": 60,
+      "type": "developInfrastructure",
+      "date": "2026-01-24",
+      "nation": 1,
+      "city": {
+        "id": 1,
+        "name": "Shanghái",
+        "nationId": 1,
+        "latitude": 31.22222,
+        "longitude": 121.45806,
+        "infrastructureLevel": 3,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 61,
+      "type": "nationFounded",
+      "date": "2026-01-24",
+      "nation": 12,
+      "city": {
+        "id": 12,
+        "name": "São Paulo",
+        "nationId": 12,
+        "latitude": -23.5475,
+        "longitude": -46.6361,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 62,
+      "type": "developInfrastructure",
+      "date": "2026-01-24",
+      "nation": 3,
+      "city": {
+        "id": 3,
+        "name": "Shenzhen",
+        "nationId": 3,
+        "latitude": 22.54554,
+        "longitude": 114.0683,
+        "infrastructureLevel": 3,
+        "developmentPoints": 2,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 63,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-24",
+      "nation": 8,
+      "city": {
+        "id": 8,
+        "name": "Ciudad Ho Chi Minh (Saigón)",
+        "nationId": 8,
+        "latitude": 10.82302,
+        "longitude": 106.62965,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 64,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-24",
+      "nation": 7,
+      "city": {
+        "id": 7,
+        "name": "Lagos",
+        "nationId": 7,
+        "latitude": 6.45407,
+        "longitude": 3.39467,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 65,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-24",
+      "nation": 4,
+      "city": {
+        "id": 4,
+        "name": "Cantón",
+        "nationId": 4,
+        "latitude": 23.11667,
+        "longitude": 113.25,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 4
+      }
+    },
+    {
+      "id": 66,
+      "type": "attack",
+      "date": "2026-01-24",
+      "nation": 6,
+      "city": {
+        "id": 6,
+        "name": "Estambul",
+        "nationId": 6,
+        "latitude": 41.01384,
+        "longitude": 28.94966,
+        "infrastructureLevel": 3,
+        "developmentPoints": 2,
+        "militaryPower": 3
+      },
+      "targetNation": 11,
+      "targetCity": {
+        "id": 11,
+        "name": "Mumbai",
+        "nationId": 6,
+        "latitude": 19.07283,
+        "longitude": 72.88261,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      },
+      "attackerInitialPM": 3,
+      "defenderInitialPM": 0
+    },
+    {
+      "id": 67,
+      "type": "developInfrastructure",
+      "date": "2026-01-24",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 4,
+        "developmentPoints": 2,
+        "militaryPower": 6
+      }
+    },
+    {
+      "id": 68,
+      "type": "developInfrastructure",
+      "date": "2026-01-25",
+      "nation": 5,
+      "city": {
+        "id": 5,
+        "name": "Kinsasa",
+        "nationId": 5,
+        "latitude": -4.32758,
+        "longitude": 15.31357,
+        "infrastructureLevel": 2,
+        "developmentPoints": 1,
+        "militaryPower": 1
+      }
+    },
+    {
+      "id": 69,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-25",
+      "nation": 10,
+      "city": {
+        "id": 10,
+        "name": "Lahore",
+        "nationId": 10,
+        "latitude": 31.558,
+        "longitude": 74.35071,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 70,
+      "type": "developInfrastructure",
+      "date": "2026-01-25",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 4,
+        "developmentPoints": 3,
+        "militaryPower": 6
+      }
+    },
+    {
+      "id": 71,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-26",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 4,
+        "developmentPoints": 3,
+        "militaryPower": 10
+      }
+    },
+    {
+      "id": 72,
+      "type": "developInfrastructure",
+      "date": "2026-01-26",
+      "nation": 10,
+      "city": {
+        "id": 10,
+        "name": "Lahore",
+        "nationId": 10,
+        "latitude": 31.558,
+        "longitude": 74.35071,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 73,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-26",
+      "nation": 4,
+      "city": {
+        "id": 4,
+        "name": "Cantón",
+        "nationId": 4,
+        "latitude": 23.11667,
+        "longitude": 113.25,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 6
+      }
+    },
+    {
+      "id": 74,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-26",
+      "nation": 7,
+      "city": {
+        "id": 7,
+        "name": "Lagos",
+        "nationId": 7,
+        "latitude": 6.45407,
+        "longitude": 3.39467,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 3
+      }
+    },
+    {
+      "id": 75,
+      "type": "developInfrastructure",
+      "date": "2026-01-26",
+      "nation": 12,
+      "city": {
+        "id": 12,
+        "name": "São Paulo",
+        "nationId": 12,
+        "latitude": -23.5475,
+        "longitude": -46.6361,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 76,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-26",
+      "nation": 8,
+      "city": {
+        "id": 8,
+        "name": "Ciudad Ho Chi Minh (Saigón)",
+        "nationId": 8,
+        "latitude": 10.82302,
+        "longitude": 106.62965,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 3
+      }
+    },
+    {
+      "id": 77,
+      "type": "developInfrastructure",
+      "date": "2026-01-27",
+      "nation": 8,
+      "city": {
+        "id": 8,
+        "name": "Ciudad Ho Chi Minh (Saigón)",
+        "nationId": 8,
+        "latitude": 10.82302,
+        "longitude": 106.62965,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 3
+      }
+    },
+    {
+      "id": 78,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-27",
+      "nation": 5,
+      "city": {
+        "id": 5,
+        "name": "Kinsasa",
+        "nationId": 5,
+        "latitude": -4.32758,
+        "longitude": 15.31357,
+        "infrastructureLevel": 2,
+        "developmentPoints": 1,
+        "militaryPower": 3
+      }
+    },
+    {
+      "id": 79,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-27",
+      "nation": 4,
+      "city": {
+        "id": 4,
+        "name": "Cantón",
+        "nationId": 4,
+        "latitude": 23.11667,
+        "longitude": 113.25,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 8
+      }
+    },
+    {
+      "id": 80,
+      "type": "developInfrastructure",
+      "date": "2026-01-27",
+      "nation": 10,
+      "city": {
+        "id": 10,
+        "name": "Lahore",
+        "nationId": 10,
+        "latitude": 31.558,
+        "longitude": 74.35071,
+        "infrastructureLevel": 2,
+        "developmentPoints": 1,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 81,
+      "type": "nationFounded",
+      "date": "2026-01-27",
+      "nation": 13,
+      "city": {
+        "id": 13,
+        "name": "Ciudad de México",
+        "nationId": 13,
+        "latitude": 19.42847,
+        "longitude": -99.12766,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 82,
+      "type": "attack",
+      "date": "2026-01-27",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 4,
+        "developmentPoints": 3,
+        "militaryPower": 10
+      },
+      "targetNation": 1,
+      "targetCity": {
+        "id": 1,
+        "name": "Shanghái",
+        "nationId": 2,
+        "latitude": 31.22222,
+        "longitude": 121.45806,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      },
+      "attackerInitialPM": 10,
+      "defenderInitialPM": 0
+    },
+    {
+      "id": 83,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-28",
+      "nation": 13,
+      "city": {
+        "id": 13,
+        "name": "Ciudad de México",
+        "nationId": 13,
+        "latitude": 19.42847,
+        "longitude": -99.12766,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 1
+      }
+    },
+    {
+      "id": 84,
+      "type": "developInfrastructure",
+      "date": "2026-01-28",
+      "nation": 12,
+      "city": {
+        "id": 12,
+        "name": "São Paulo",
+        "nationId": 12,
+        "latitude": -23.5475,
+        "longitude": -46.6361,
+        "infrastructureLevel": 2,
+        "developmentPoints": 1,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 85,
+      "type": "developInfrastructure",
+      "date": "2026-01-28",
+      "nation": 2,
+      "city": {
+        "id": 2,
+        "name": "Pekín",
+        "nationId": 2,
+        "latitude": 39.9075,
+        "longitude": 116.39723,
+        "infrastructureLevel": 5,
+        "developmentPoints": 0,
+        "militaryPower": 10
+      }
+    },
+    {
+      "id": 86,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-28",
+      "nation": 3,
+      "city": {
+        "id": 3,
+        "name": "Shenzhen",
+        "nationId": 3,
+        "latitude": 22.54554,
+        "longitude": 114.0683,
+        "infrastructureLevel": 3,
+        "developmentPoints": 2,
+        "militaryPower": 3
+      }
+    },
+    {
+      "id": 87,
+      "type": "developInfrastructure",
+      "date": "2026-01-28",
+      "nation": 5,
+      "city": {
+        "id": 5,
+        "name": "Kinsasa",
+        "nationId": 5,
+        "latitude": -4.32758,
+        "longitude": 15.31357,
+        "infrastructureLevel": 3,
+        "developmentPoints": 0,
+        "militaryPower": 3
+      }
+    },
+    {
+      "id": 88,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-28",
+      "nation": 6,
+      "city": {
+        "id": 6,
+        "name": "Estambul",
+        "nationId": 6,
+        "latitude": 41.01384,
+        "longitude": 28.94966,
+        "infrastructureLevel": 3,
+        "developmentPoints": 2,
+        "militaryPower": 6
+      }
+    },
+    {
+      "id": 89,
+      "type": "developInfrastructure",
+      "date": "2026-01-28",
+      "nation": 10,
+      "city": {
+        "id": 10,
+        "name": "Lahore",
+        "nationId": 10,
+        "latitude": 31.558,
+        "longitude": 74.35071,
+        "infrastructureLevel": 3,
+        "developmentPoints": 0,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 90,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-29",
+      "nation": 13,
+      "city": {
+        "id": 13,
+        "name": "Ciudad de México",
+        "nationId": 13,
+        "latitude": 19.42847,
+        "longitude": -99.12766,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 2
+      }
+    },
+    {
+      "id": 91,
+      "type": "attack",
+      "date": "2026-01-29",
+      "nation": 6,
+      "city": {
+        "id": 6,
+        "name": "Estambul",
+        "nationId": 6,
+        "latitude": 41.01384,
+        "longitude": 28.94966,
+        "infrastructureLevel": 3,
+        "developmentPoints": 2,
+        "militaryPower": 4
+      },
+      "targetNation": 10,
+      "targetCity": {
+        "id": 10,
+        "name": "Lahore",
+        "nationId": 6,
+        "latitude": 31.558,
+        "longitude": 74.35071,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 0
+      },
+      "attackerInitialPM": 6,
+      "defenderInitialPM": 2
+    },
+    {
+      "id": 92,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-29",
+      "nation": 5,
+      "city": {
+        "id": 5,
+        "name": "Kinsasa",
+        "nationId": 5,
+        "latitude": -4.32758,
+        "longitude": 15.31357,
+        "infrastructureLevel": 3,
+        "developmentPoints": 0,
+        "militaryPower": 6
+      }
+    },
+    {
+      "id": 93,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-29",
+      "nation": 9,
+      "city": {
+        "id": 9,
+        "name": "Chengdú",
+        "nationId": 9,
+        "latitude": 30.66667,
+        "longitude": 104.06667,
+        "infrastructureLevel": 1,
+        "developmentPoints": 0,
+        "militaryPower": 3
+      }
+    },
+    {
+      "id": 94,
+      "type": "developInfrastructure",
+      "date": "2026-01-29",
+      "nation": 2,
+      "city": {
+        "id": 1,
+        "name": "Shanghái",
+        "nationId": 2,
+        "latitude": 31.22222,
+        "longitude": 121.45806,
+        "infrastructureLevel": 2,
+        "developmentPoints": 1,
+        "militaryPower": 0
+      }
+    },
+    {
+      "id": 95,
+      "type": "increaseMilitaryPower",
+      "date": "2026-01-29",
+      "nation": 8,
+      "city": {
+        "id": 8,
+        "name": "Ciudad Ho Chi Minh (Saigón)",
+        "nationId": 8,
+        "latitude": 10.82302,
+        "longitude": 106.62965,
+        "infrastructureLevel": 2,
+        "developmentPoints": 0,
+        "militaryPower": 5
+      }
+    }
+  ],
+  "currentDate": "2026-01-29"
+}
